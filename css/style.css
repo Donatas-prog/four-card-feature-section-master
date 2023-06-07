@@ -1,0 +1,98 @@
+body {
+    font-family: 'Poppins', sans-serif;
+    background-color: hsl(0, 0%, 98%);
+    color: hsl(234, 12%, 34%);
+}
+
+.container {
+    max-width: 1440px;
+    margin: 0 auto;
+}
+
+header {
+    text-align: center;
+    font-size: 1.7rem;
+
+}
+
+header spam.top {
+    display: block;
+    font-weight: 200;
+    font-size: 1.6rem;
+}
+header spam.bottom {
+    display: block;
+    font-weight: 600;
+    font-size: 1.6rem;
+}
+header > p {
+    width: 30%;
+    margin: 0 auto;
+    font-weight: 200;
+    font-size: .8rem;
+}
+.raw {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding-top: 25px;
+    width: 70%;
+    margin: 0 auto;
+}
+.column {
+    display: flex;
+    flex-direction: column;
+    flex-basis: 100%;
+    flex: 1 1 200px;
+}
+.card {
+    position: relative;
+    padding: 20px 35px;
+    height: 200px;
+    margin: 25px;
+    border-radius: 2%;
+    background-color: white;
+    box-shadow: 3px 3px 5px 6px #eee;
+}
+.card img {
+    position: absolute;
+    bottom: 25px;
+    right: 35px;
+    width: 3rem;
+}
+.card#Supervisor { 
+     border-top: 5px solid hsl(180, 62%, 55%);
+    }
+.card#Team-Builder { 
+    border-top: 5px solid hsl(0, 78%, 62%);
+}
+.card#Karma { 
+    border-top: 5px solid hsl(34, 97%, 64%);
+}
+.card#Calculator { 
+    border-top: 5px solid hsl(212, 86%, 64%);
+}
+h2 {
+    font-size: 1.2rem;
+}
+.card > p {
+    font-size: .7rem;
+    opacity: .6;
+}
+
+@media only screen and (max-width: 768px)
+{
+    
+    header > p {
+        width: 70%;
+        margin-bottom: 1rem;
+    }
+    .card {
+        width: 80%;
+        margin: 0 auto;
+        margin-bottom: 2rem;
+    }
+}
+
+
